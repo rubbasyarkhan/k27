@@ -4,10 +4,43 @@
     font-family: font1;
     src: url(/src/assets/fonts/Lausanne-300.woff2);
 }
+
 @font-face {
     font-family: font2;
     src: url(/src/assets/fonts/Lausanne-500.woff2);
 }
-body{
-    color: green;
+
+body {
+    color: white;
+    overflow-x: hidden;
+    padding: 0;
+    margin: 0;
+
 }
+
+
+.moveX {
+  display: flex;
+  animation: moveAnimation 5s linear infinite;
+  width: max-content; /* makes sure width fits content */
+}
+
+@keyframes moveAnimation {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%); /* only move halfway since duplicated */
+  }
+}
+
+
+.moveLink {
+    opacity: 0;
+    transition: all ease 0.3s;
+}
+
+.link:hover .moveLink {
+    opacity: 1;
+}
+
