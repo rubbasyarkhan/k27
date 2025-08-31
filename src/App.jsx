@@ -7,10 +7,12 @@ import Project from './pages/project'
 const App = () => {
   return (
     <div className='text-white'>
+
+     
       <Routes >
-        <Route  path='/' element={<Home />}/>
-        <Route  path='/agence' element={<Agence/>}/>
-        <Route  path='/project' element={<Project />}/>
+        <Route path='/' element={<Home />} />
+        <Route path='/agence' element={<Agence />} />
+        <Route path='/project' element={<Project />} />
       </Routes >
     </div>
   )

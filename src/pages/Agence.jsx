@@ -57,7 +57,7 @@ const Agence = () => {
 
   return (
     <>
-      <div className='section1agence'>
+      <div className='section1agence py-1 relative'>
 
         <div ref={imageDiv} className='h-[40vh] w-[30vh] rounded-4xl bg-red-700 absolute top-30 left-95 overflow-hidden '>
           <img ref={imageref} src="https://k72.ca/uploads/teamMembers/Michele_480X640-480x640.jpg" className='h-full w-full object-cover' alt="" />
