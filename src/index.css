@@ -2,12 +2,12 @@
 
 @font-face {
     font-family: font1;
-    src: url(../assets/fonts/Lausanne-300.woff2);
+    src: url(/src/assets/fonts/Lausanne-300.woff2);
 }
 @font-face {
     font-family: font2;
-    src: url(../assets/fonts/Lausanne-500.woff2);
+    src: url(/src/assets/fonts/Lausanne-500.woff2);
 }
 body{
-    background-color: black;
+    color: green;
 }
